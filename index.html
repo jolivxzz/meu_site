@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>João · Explorar, questionar e aprender</title>
+  <meta name="description" content="Site pessoal de João. Curiosidade, racionalidade, competitividade e a vontade constante de descobrir novos caminhos e conhecimentos.">
+
+  <!-- Favicon do Design System -->
+  <link rel="icon" href="assets/ds/asagiri-38matcha.aura.build/favicon.ico">
+
+  <!-- Tipografia do Design System (Instrument Serif, Hanken Grotesk, Shippori Mincho) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="assets/ds/fonts.googleapis.com/css2__q8a48ba46.css" rel="stylesheet">
+
+  <!-- Bibliotecas do Design System para Animação e Scroll Suave -->
+  <script src="assets/ds/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="assets/ds/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Estilos Estruturados e Tokens do Design System -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Background Névoa do Design System -->
+  <div class="page-bg" aria-hidden="true">
+    <div class="pi"></div>
+  </div>
+
+  <!-- ========================================================================
+       BARRA DE NAVEGAÇÃO
+       ======================================================================== -->
+  <nav id="navbar" aria-label="Navegação principal">
+    <a href="#inicio" class="brand">
+      JO<b>ÃO</b>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+      ☰
+    </button>
+
+    <div class="nlinks" id="nlinks">
+      <a href="#inicio">Início</a>
+      <a href="#quem-sou">Quem Sou</a>
+      <a href="#interesses">Interesses</a>
+      <a href="#mentalidade">Mentalidade</a>
+      <a href="#tecnologia">Tecnologia</a>
+      <a href="#alem-da-tela">Além da Tela</a>
+      <a href="#contato" class="nbtn">Contato</a>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       SEÇÃO 01 — INÍCIO (HERO)
+       Foto pessoal única 1: O salto no vôlei de praia
+       ======================================================================== -->
+  <header class="hero" id="inicio">
+    <div class="bg" aria-hidden="true">
+      <img src="assets/img/joao-volei.jpg" alt="João saltando no ar para atacar uma bola de vôlei na praia sob a luz do sol">
+    </div>
+
+    <!-- Kanji decorativo vertical original do Design System -->
+    <div class="vjp" aria-hidden="true">好奇心 · 挑戦</div>
+
+    <div class="hero-inner">
+      <span class="eyebrow" style="color: var(--stone); margin-bottom: 0.8rem;">Apresentação Pessoal</span>
+      <h1>
+        <span class="hl">João.</span>
+        <span class="hl"><em>Movido pela curiosidade,</em></span>
+        <span class="hl">provocado pelo desafio.</span>
+      </h1>
+      <p class="sub">
+        Não gosto de ficar preso a uma única gaveta. Descobrir como as coisas funcionam, testar meus próprios limites e aprender com cada situação é o que me coloca em movimento.
+      </p>
+      <div class="cta">
+        <a href="#quem-sou" class="btn solid">Conhecer quem sou</a>
+        <a href="#interesses" class="btn ghost">Ver interesses</a>
+      </div>
+    </div>
+
+    <a href="#quem-sou" class="scrolln" aria-label="Rolar para a seção Quem Sou">
+      <span class="ln"></span> Explorar trajetória
+    </a>
+  </header>
+
+  <!-- ========================================================================
+       SEÇÃO 02 — QUEM SOU
+       Foto pessoal única 2: Retrato pessoal autêntico
+       ======================================================================== -->
+  <section class="section-wrap" id="quem-sou">
+    <div class="about-split">
+      <div class="photo-card">
+        <img src="assets/img/joao-retrato.jpg" alt="Retrato espontâneo e descontraído de João em ambiente com pouca luz">
+        <span class="cap">Perspectiva &amp; Autenticidade</span>
+      </div>
+
+      <div class="editorial-copy">
+        <span class="eyebrow">01 · Quem Sou</span>
+        <h2>
+          Pensamento racional, <em>olhar atento</em> e disposição para tentar.
+        </h2>
+        <p>
+          Encaro a vida com uma mistura de tranquilidade e curiosidade genuína. Gosto de analisar os cenários com calma e racionalidade, mas entendo que nem todo problema se resolve com uma fórmula pré-pronta: cada momento exige uma postura diferente.
+        </p>
+        <p>
+          Em algumas situações, o melhor caminho é sentar, raciocinar e resolver tudo por conta própria. Em outras, o mais inteligente é pesquisar a fundo ou pedir a visão de quem já passou por aquilo. Ter flexibilidade para escolher como agir é uma das formas que encontro de me manter em constante evolução.
+        </p>
+        <p>
+          Acredito que minha percepção do mundo e o meu jeito de encarar as coisas são características particulares que guiam minhas escolhas. Acima de qualquer resultado, tenho uma preocupação constante em agir com justiça e construir relações baseadas em confiança recíproca.
+        </p>
+
+        <div class="key-traits">
+          <div class="trait-item">
+            <div class="k">Racional</div>
+            <div class="l">Análise e discernimento</div>
+          </div>
+          <div class="trait-item">
+            <div class="k">Curioso</div>
+            <div class="l">Vontade de explorar</div>
+          </div>
+          <div class="trait-item">
+            <div class="k">Justo</div>
+            <div class="l">Ética e coerência</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       TÓPICO 2 — INTERESSES (SCROLL LATERAL PARA A DIREITA AO ROLAR PARA BAIXO)
+       Imagens 100% temáticas e conceituais (sem fotos pessoais aqui)
+       ======================================================================== -->
+  <section class="h-scroll-section" id="interesses">
+    <div class="h-head">
+      <span class="eyebrow">02 · Interesses</span>
+      <h2>Áreas que despertam <em>minha atenção</em></h2>
+      <p>
+        Não quero me fechar em um único assunto. O que me atrai é a variedade do conhecimento, a mecânica da competição e a liberdade de experimentar.
+      </p>
+    </div>
+
+    <div class="h-track-wrap" id="wrapInteresses">
+      <div class="h-track" id="trackInteresses">
+        
+        <!-- Card 1: Jogos Online (Substituiu Minecraft/Rocket League/VALORANT) -->
+        <article class="h-card">
+          <div class="pic">
+            <img src="assets/img/tema-jogos.jpg" alt="Ambiente de jogos competitivos com iluminação e telas">
+            <span class="pic-badge">Competição</span>
+          </div>
+          <div class="card-body">
+            <span class="category-tag">Jogos Online</span>
+            <h3>Competição &amp; Estratégia</h3>
+            <p>
+              O apelo dos jogos online competitivos está no desafio contínuo: reflexos rápidos, leitura tática sob pressão e a vontade constante de superar oponentes difíceis.
+            </p>
+            <div class="card-footer">Espírito Competitivo</div>
+          </div>
+        </article>
+
+        <!-- Card 2: Livros -->
+        <article class="h-card">
+          <div class="pic">
+            <img src="assets/img/tema-livros.jpg" alt="Páginas de livro aberto em ambiente acolhedor de leitura">
+            <span class="pic-badge">Reflexão</span>
+          </div>
+          <div class="card-body">
+            <span class="category-tag">Leitura</span>
+            <h3>Livros</h3>
+            <p>
+              Gosto bastante de ler quando encontro temas que realmente me instigam a pensar. Mesmo com a rotina corrida, valorizo o tempo dedicado a absorver novas ideias.
+            </p>
+            <div class="card-footer">Conhecimento &amp; Pausa</div>
+          </div>
+        </article>
+
+        <!-- Card 3: Música -->
+        <article class="h-card">
+          <div class="pic" style="background: #ffffff; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/img/novo-musica.png" alt="Onda sonora estilizada representando música e ritmo" style="object-fit: contain; width: 85%; height: 85%;">
+            <span class="pic-badge">Ritmo</span>
+          </div>
+          <div class="card-body">
+            <span class="category-tag">Música</span>
+            <h3>Música</h3>
+            <p>
+              Presente no dia a dia, a música acompanha os momentos de estudo, treino e foco. Ajuda a definir o ritmo de cada momento e a descontrair a mente.
+            </p>
+            <div class="card-footer">Trilha Sonora Diária</div>
+          </div>
+        </article>
+
+        <!-- Card 4: Vôlei (Imagem Temática de Quadra/Partida) -->
+        <article class="h-card">
+          <div class="pic">
+            <img src="assets/img/tema-volei.jpg" alt="Bola de vôlei na areia diante da rede de uma quadra praiana">
+            <span class="pic-badge">Esporte</span>
+          </div>
+          <div class="card-body">
+            <span class="category-tag">Atividades</span>
+            <h3>Vôlei</h3>
+            <p>
+              Prática que une dinamismo físico e disputa sadia. A exigência de tempo de bola, posicionamento e espírito competitivo fazem ser meu esporte favorito.
+            </p>
+            <div class="card-footer">Energia &amp; Jogo</div>
+          </div>
+        </article>
+
+        <!-- Card 5: Bicicleta (Imagem Temática de Ciclismo) -->
+        <article class="h-card">
+          <div class="pic" style="background: #ffffff; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/img/novo-bicicleta.png" alt="Ciclista com capacete e bicicleta em contraste de alto impacto" style="object-fit: contain; width: 90%; height: 90%;">
+            <span class="pic-badge">Ar Livre</span>
+          </div>
+          <div class="card-body">
+            <span class="category-tag">Atividades</span>
+            <h3>Bicicleta</h3>
+            <p>
+              Pedalar pelas vias e parques é uma das melhores maneiras de espairecer as ideias, manter o corpo ativo e aproveitar a cidade em outro ritmo.
+            </p>
+            <div class="card-footer">Movimento &amp; Equilíbrio</div>
+          </div>
+        </article>
+
+        <!-- Card 6: Card de Encerramento do Track -->
+        <div class="h-card intro-card">
+          <div class="big">
+            Explorar <em>sem limites</em> prévios.
+          </div>
+          <div class="hint">
+            Continue rolando para a mentalidade <span>→</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       TÓPICO 3 — MINHA MENTALIDADE (SCROLL LATERAL PARA A ESQUERDA AO ROLAR PARA BAIXO)
+       Sentido OPOSTO da seção anterior.
+       ======================================================================== -->
+  <section class="mindset-h-section" id="mentalidade">
+    <div class="h-head">
+      <span class="eyebrow">03 · Filosofia e Ação</span>
+      <h2>A forma como encaro <em>o que faço</em></h2>
+      <p>
+        Quatro princípios que orientam minha postura diante de problemas, projetos, vitórias e aprendizados do dia a dia.
+      </p>
+    </div>
+
+    <div class="h-track-wrap" id="wrapMentalidade">
+      <div class="h-track" id="trackMentalidade">
+        
+        <!-- Card Inicial do Track Reverso -->
+        <div class="mindset-card intro-card">
+          <div class="big">
+            Quatro <em>pilares</em> em ação.
+          </div>
+          <div class="hint">
+            <span>←</span> Movimento inverso de exploração
+          </div>
+        </div>
+
+        <!-- Pilar 1: Curiosidade -->
+        <div class="mindset-card">
+          <div class="pillar-num">01</div>
+          <h3>Curiosidade</h3>
+          <p>
+            É meu motor principal. Gosto de entender os porquês por trás de cada detalhe, experimentar ferramentas diferentes e transitar entre áreas variadas sem receio de começar do básico.
+          </p>
+          <div class="quote-snippet">"Descobrir é o que torna o processo instigante."</div>
+        </div>
+
+        <!-- Pilar 2: Competição -->
+        <div class="mindset-card">
+          <div class="pillar-num">02</div>
+          <h3>Competição</h3>
+          <p>
+            Competir me energiza e me incentiva a dar o melhor de mim. Não encaro o desafio com peso, mas sim como a oportunidade definitiva de testar capacidade e me superar.
+          </p>
+          <div class="quote-snippet">"O desafio é o combustível da evolução."</div>
+        </div>
+
+        <!-- Pilar 3: Adaptabilidade -->
+        <div class="mindset-card">
+          <div class="pillar-num">03</div>
+          <h3>Adaptabilidade</h3>
+          <p>
+            Não existe método único para resolver impasses. Dependendo do contexto, tento sozinho, pesquiso referências ou busco a visão de outros. O foco é a eficiência com raciocínio claro.
+          </p>
+          <div class="quote-snippet">"Ajustar a rota sem perder a clareza."</div>
+        </div>
+
+        <!-- Pilar 4: Justiça -->
+        <div class="mindset-card">
+          <div class="pillar-num">04</div>
+          <h3>Justiça &amp; Confiança</h3>
+          <p>
+            Prezo por relações limpas, equilíbrio nas atitudes e coerência. Quero ser reconhecido como alguém de palavra, confiável para parcerias e firme em princípios de integridade.
+          </p>
+          <div class="quote-snippet">"Confiança se constrói com atitudes diárias."</div>
+        </div>
+
+        <!-- Card Manifesto de Liberdade -->
+        <div class="mindset-card" style="background: rgba(35, 39, 31, 0.85); border-color: rgba(134, 160, 116, 0.4);">
+          <div class="pillar-num" style="color: var(--stone);">✦</div>
+          <h3 style="font-style: italic;">Liberdade de Explorar</h3>
+          <p>
+            Quando uma atividade perde o prazer da descoberta e vira pura obrigação mecânica, é hora de repensar a abordagem. O entusiasmo é o que mantém a excelência viva.
+          </p>
+          <div class="quote-snippet" style="color: var(--jade-l);">"Sem fórmulas engessadas."</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       TÓPICO 5 — TECNOLOGIA E FUTURO
+       Imagens 100% temáticas: IA, Avanços Medicinais e Pesquisa/Futuro
+       (Sem imagens pessoais, sem clichês de sci-fi exagerados)
+       ======================================================================== -->
+  <section class="section-wrap" id="tecnologia">
+    <div class="tech-split">
+      <div class="tech-copy">
+        <span class="eyebrow">04 · Tecnologia &amp; Futuro</span>
+        <h2>
+          Construir interfaces, <em>aprender ferramentas</em> e olhar para frente.
+        </h2>
+        <p>
+          Meu interesse por programação e tecnologia ganhou força principalmente durante o período da pandemia. Criar páginas para a internet, testar ideias e ver algo interativo nascer a partir de linhas de código me chamou a atenção logo de início.
+        </p>
+        <p>
+          Tenho um apreço especial por explorar o potencial da inteligência artificial e entender como avanços científicos e tecnológicos podem transformar a vida das pessoas. Quero aprimorar aquilo que já consigo fazer e, ao mesmo tempo, expandir horizontes em novas direções.
+        </p>
+
+        <div class="vision-box">
+          <h4>Perspectiva para os Próximos 5 Anos</h4>
+          <p>
+            Imagino um futuro aberto e sólido: trabalhando com o que gosto, cursando a faculdade, aprendendo continuamente e equilibrando dedicação profissional com hobbies, esportes e boa convivência. O objetivo é alcançar independência e estabilidade, proporcionando conforto e tranquilidade para minha família.
+          </p>
+        </div>
+      </div>
+
+      <div class="tech-visual">
+        <!-- Imagem Principal Temática: Ambiente de Estudo e Futuro -->
+        <div class="tech-photo-large">
+          <img src="assets/img/tema-futuro.jpg" alt="Ambiente moderno de pesquisa, estudo e arquitetura do conhecimento">
+          <span class="cap">Exploração e novos caminhos</span>
+        </div>
+
+        <div class="tech-focus-grid">
+          <!-- Card Temático: IA -->
+          <div class="tech-focus-card">
+            <div class="thumb">
+              <img src="assets/img/tema-ia.jpg" alt="Conceito visual de redes neurais e processamento de inteligência artificial">
+            </div>
+            <div class="focus-content">
+              <div class="focus-title">Inteligência Artificial</div>
+              <div class="focus-desc">Curiosidade aplicada sobre sistemas inteligentes, aprendizado de máquina e automação.</div>
+            </div>
+          </div>
+
+          <!-- Card Temático: Medicina e Biotecnologia -->
+          <div class="tech-focus-card">
+            <div class="thumb">
+              <img src="assets/img/tema-medicina.jpg" alt="Pesquisa científica de laboratório com equipamentos biomédicos">
+            </div>
+            <div class="focus-content">
+              <div class="focus-title">Avanços Medicinais</div>
+              <div class="focus-desc">Interesse em biotecnologia, medicina de precisão e inovações que salvam vidas.</div>
+            </div>
+          </div>
+
+          <!-- Card Temático 3: Ciência & Exploração -->
+          <div class="tech-focus-card" style="grid-column: span 2;">
+            <div class="thumb" style="height: 140px;">
+              <img src="assets/img/tema-ciencia-exploracao.jpg" alt="Visualização de dados científicos e exploração espacial e tecnológica">
+            </div>
+            <div class="focus-content">
+              <div class="focus-title">Ciência &amp; Exploração Tecnológica</div>
+              <div class="focus-desc">A busca contínua por entender como o mundo funciona: descobertas científicas, inovação e o impacto das novas fronteiras tecnológicas na sociedade.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SEÇÃO 06 — ALÉM DA TELA
+       Fotos pessoais únicas:
+       - Setup pessoal de João (joao-setup.jpg)
+       - A bicicleta no parque do Ipiranga (joao-bike.jpg)
+       - Exploração do conhecimento científico (tema-ciencia-exploracao.jpg)
+       ======================================================================== -->
+  <section class="section-wrap" id="alem-da-tela">
+    <div class="section-header">
+      <span class="eyebrow">05 · Além da Tela</span>
+      <h2>O ritmo <em>fora da rotina</em></h2>
+      <p>
+        A curiosidade e a dedicação continuam mesmo quando o monitor está desligado: nas quadras, nas pedaladas em dia de sol, nos fones de ouvido e no cantinho de estudo.
+      </p>
+    </div>
+
+    <div class="life-gallery-grid">
+      <!-- Item Grande: Setup pessoal e espaço de foco de João -->
+      <div class="life-item large">
+        <img src="assets/img/joao-setup.jpg" alt="Setup de jogos e estudos com monitor vertical e anotações">
+        <div class="life-overlay">
+          <span class="cat-label">Espaço Pessoal</span>
+          <h3>Espaço de Estudo &amp; Jogos</h3>
+          <p>
+            Onde as ideias ganham forma, as anotações se organizam e as partidas competitivas acontecem.
+          </p>
+        </div>
+      </div>
+
+      <!-- Item Compacto 1: Foto real da bicicleta no parque de João -->
+      <div class="life-item compact">
+        <img src="assets/img/joao-bike.jpg" alt="Guidão da bicicleta de João apontando para um parque aberto e ensolarado">
+        <div class="life-overlay">
+          <span class="cat-label">Ar Livre</span>
+          <h3>Pedalada &amp; Cidade</h3>
+          <p>
+            Passeio ao ar livre para clarear os pensamentos e recarregar as energias.
+          </p>
+        </div>
+      </div>
+
+      <!-- Item Compacto 2: Exploração e descoberta -->
+      <div class="life-item compact">
+        <img src="assets/img/tema-ciencia-exploracao.jpg" alt="Visualização de dados científicos e fronteiras da exploração tecnológica">
+        <div class="life-overlay">
+          <span class="cat-label">Curiosidade</span>
+          <h3>Exploração do Conhecimento</h3>
+          <p>
+            O interesse por compreender como a ciência e a tecnologia expandem nossa percepção da realidade.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SEÇÃO 07 — ENCERRAMENTO
+       ======================================================================== -->
+  <section class="closing-section" id="encerramento">
+    <span class="eyebrow">06 · Em Conclusão</span>
+    <h2>
+      Aprender com o que já foi, <em>jogar sério o presente</em> e construir o que vem pela frente.
+    </h2>
+    <p>
+      Seja na frente do código, numa partida disputada ou descobrindo um assunto novo: o que vale a pena é manter o entusiasmo pela descoberta, a lealdade nas relações e a vontade constante de evoluir.
+    </p>
+
+    <div class="closing-actions">
+      <a href="#contato" class="btn solid">Conversar Comigo</a>
+      <a href="#inicio" class="btn ghost-dark">Voltar ao Topo ↑</a>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SEÇÃO 08 — CONTATO (VAMOS CONVERSAR?)
+       ======================================================================== -->
+  <section class="contact-section" id="contato">
+    <span class="eyebrow">07 · Contato</span>
+    <h2>Vamos <em>conversar?</em></h2>
+    <p class="contact-lead">
+      Se quiser trocar uma ideia, compartilhar alguma proposta ou simplesmente entrar em contato, estou por aqui.
+    </p>
+
+    <div class="contact-cards">
+      <!-- Cartão 1: E-mail -->
+      <a href="mailto:j.olivxzz@gmail.com" class="contact-card" aria-label="Enviar e-mail para j.olivxzz@gmail.com">
+        <div class="contact-icon-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+          </svg>
+        </div>
+        <div class="contact-info">
+          <div class="contact-channel">E-mail</div>
+          <div class="contact-value">j.olivxzz@gmail.com</div>
+        </div>
+        <span class="contact-arrow" aria-hidden="true">→</span>
+      </a>
+
+      <!-- Cartão 2: Instagram -->
+      <a href="https://www.instagram.com/j.olivxz/" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Acessar Instagram @j.olivxz em nova aba">
+        <div class="contact-icon-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </div>
+        <div class="contact-info">
+          <div class="contact-channel">Instagram</div>
+          <div class="contact-value">@j.olivxz</div>
+        </div>
+        <span class="contact-arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#inicio" class="name">JO<b>ÃO</b></a>
+          <div class="tagline">Espaço pessoal · Curiosidade, disciplina e autenticidade</div>
+        </div>
+
+        <div class="footer-nav">
+          <div class="footer-col">
+            <h4>Navegação</h4>
+            <a href="#inicio">Início</a>
+            <a href="#quem-sou">Quem Sou</a>
+            <a href="#interesses">Interesses</a>
+            <a href="#contato">Contato</a>
+          </div>
+          <div class="footer-col">
+            <h4>Mundo</h4>
+            <a href="#mentalidade">Mentalidade</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#alem-da-tela">Além da Tela</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 João. Todos os direitos reservados.</span>
+        <span>Construído integralmente sob o Design System Asagiri.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
